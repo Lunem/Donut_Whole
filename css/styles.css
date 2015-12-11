@@ -17,10 +17,12 @@ body {
    margin:auto;
    background-image: url('../images/bg-tile.gif');
    font-family: "Open Sans";
+   color: #4b2707;
 }
 
 .container {
    position: relative;
+   display: inline-block;
    margin: auto;
    text-align: center;
    width:100%;
@@ -32,14 +34,16 @@ body {
 
 h1, h2 {
    font-family: "Love Ya Like A Sister";
+   color: #d17f38;
+   font-size: 40px;
 }
 
 h1 {
-
+   margin: 0 0;
 }
 
-h1 em {
-
+h1 span {
+color: #4b2707;
 }
 
 h2 {
@@ -47,7 +51,10 @@ h2 {
 }
 
 h3 {
-
+   font-weight: 400;
+   text-decoration: none;
+   font-size: 30px;
+   font-family: 'Open Sans';
 }
 
 p.lead {
@@ -67,7 +74,7 @@ a:hover {
 }
 
 hr {
-
+   background-image: url('../images/divider.png')
 }
 
 
@@ -75,6 +82,7 @@ hr {
 
 header nav {
    margin: auto;
+   font-family: "Open Sans";
 }
 
 header nav ul {
@@ -84,14 +92,15 @@ header nav ul {
 header nav ul li {
    display: inline;
    text-transform: uppercase;
-   font-style: bold;
    margin-left: 30px;
-   
 
 }
 
 header nav ul li a {
-;
+   font-weight:bold;
+   text-decoration:none;
+   color: #d17f38;
+   font-size: 14px;
 }
 
 header nav ul li a:hover {
@@ -99,6 +108,10 @@ color: #4b2707;
 }
 
 header nav ul li#logo a {
+   min-height:141px; 
+   min-width: 259px;
+   margin:auto;
+
 
 }
 
@@ -111,28 +124,38 @@ header nav ul li#logo a:hover {
 
 #hero {
    background-image: url('../images/bg-tile-yellow.gif');
-   
-width: 100%;
-height: 600px;
-}
-
-#hero .container {
+   width: 100%;
+   padding: 20px 0 20px 0;
+   margin-bottom: 30px;
 
 }
 
 #hero .large-ribbon {
-
+   position: absolute;
+   margin-left: 54%;
+   margin-top:-40px;
 }
 
 
 /* The Whole Story */
 
-#story-excerpt {
+hr#head-hr {
+   border:none;
+   background: url('../images/header-divider.png') no-repeat top center;
+   height: 40px;
+   margin: 0 0;
+}
 
+#story-excerpt {
+   clear: both;
+   float: left;
+   width:50%;
 }
 
 #best-donut {
-
+   float: left;
+   width:50%;
+}
 
 
 /* News & Events */
